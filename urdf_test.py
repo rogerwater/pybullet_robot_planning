@@ -23,7 +23,7 @@ if __name__ == "__main__":
     cube_visual = p.createVisualShape(p.GEOM_BOX, halfExtents=[6, 1, 0.125], rgbaColor=[1, 0, 0, 1])
     cubeID = p.createMultiBody(baseMass=0, baseCollisionShapeIndex=cube_collision, baseVisualShapeIndex=cube_visual, basePosition=[0, 0, 0.3])
 
-    robotID = p.loadURDF("kuka_iiwa/model.urdf", [0, 2, 0], [0, 0, 0, 1], globalScaling=2)
+    robotID = p.loadURDF("E:/Academic/Master/RL/pybullet_robot_planning/urdf/kuka.urdf", [0, 2, 0], [0, 0, 0, 1], globalScaling=2)
 
     numJoints = p.getNumJoints(robotID)
     print("numJoints:", numJoints)
