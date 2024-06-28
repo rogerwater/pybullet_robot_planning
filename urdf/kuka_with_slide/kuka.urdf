@@ -63,27 +63,27 @@
   <link name="sliding_base">
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="1.0"/>
+      <mass value="0.0"/>
       <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
     </inertial>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <box size="0.4 0.4 0.2"/>
+        <box size="6 0.4 0.2"/>
       </geometry>
       <material name="Blue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <box size="0.4 0.4 0.2"/>
+        <box size="6 0.4 0.2"/>
       </geometry>
     </collision>
   </link>
 
-  <joint name="base_slider" type="prismatic">
-    <parent link="world"/>
-    <child link="sliding_base"/>
+  <joint name="sliding_joint" type="prismatic">
+    <parent link="sliding_base"/>
+    <child link="lbr_iiwa_link_0"/>
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <axis xyz="1 0 0"/>
     <limit lower="-0.5" upper="0.5" effort="1000" velocity="1.0"/>
@@ -111,12 +111,6 @@
       </geometry>
     </collision>
   </link>
-
-  <joint name="lbr_iiwa_joint_0" type="fixed">
-    <parent link="sliding_base"/>
-    <child link="lbr_iiwa_link_0"/>
-    <origin rpy="0 0 0" xyz="0 0 0"/>
-  </joint>
 
   <!-- joint between link_0 and link_1 -->
   <joint name="lbr_iiwa_joint_1" type="revolute">

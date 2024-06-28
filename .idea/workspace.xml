@@ -29,14 +29,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/Academic/Master/RL/pybullet_robot_planning"
+    "last_opened_file_path": "E:/Academic/Master/RL/pybullet_robot_planning/urdf/kuka_with_slide"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Academic\Master\RL\pybullet_robot_planning\urdf\kuka_with_slide" />
+      <recent name="E:\Academic\Master\RL\pybullet_robot_planning\urdf" />
       <recent name="E:\Academic\Master\RL\pybullet_robot_planning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Academic\Master\RL\pybullet_robot_planning\urdf\kuka_with_slide" />
       <recent name="E:\Academic\Master\RL\pybullet_robot_planning\tutorial" />
       <recent name="E:\Academic\Master\RL\pybullet_robot_planning\urdf" />
     </key>
