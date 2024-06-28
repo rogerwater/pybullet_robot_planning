@@ -25,13 +25,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/Academic/Master/RL/pybullet_robot_planning/urdf/kuka_with_slide"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Academic/Master/RL/pybullet_robot_planning/urdf/kuka_with_slide&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Academic\Master\RL\pybullet_robot_planning\urdf\kuka_with_slide" />
@@ -44,7 +44,7 @@
       <recent name="E:\Academic\Master\RL\pybullet_robot_planning\urdf" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.urdf_test">
+  <component name="RunManager" selected="Python.demo">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pybullet_robot_planning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.urdf_test" />
         <item itemvalue="Python.demo" />
+        <item itemvalue="Python.urdf_test" />
         <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
